@@ -28,6 +28,8 @@ $lblue="\033[0;36m";
 $lblue2="\033[1;36m";
 $t="\n";
 $r="\n\n";
+@system("rm -rf user.php");
+@system("clear");
 /* END COLOR */
 
 $false = "{$abu2}[{$red}x{$abu2}]{$red2}";
